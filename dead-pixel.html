@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dead Pixel Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="tool-container">
+<h1>Dead Pixel Test Tool</h1>
+
+<p>Cycle through colors to detect dead or stuck pixels.</p>
+
+<button onclick="setColor('white')">White</button>
+<button onclick="setColor('black')">Black</button>
+<button onclick="setColor('red')">Red</button>
+<button onclick="setColor('green')">Green</button>
+<button onclick="setColor('blue')">Blue</button>
+<button onclick="toggleFullscreen()">Fullscreen</button>
+
+<div id="screen"></div>
+
+<h3>More Tools</h3>
+<ul>
+<li><a href="flicker-screen.html">Flicker Tool</a></li>
+<li><a href="index.html">Home</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

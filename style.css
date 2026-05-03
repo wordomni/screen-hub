@@ -61,12 +61,3 @@ button {
   height: 100%;
   z-index: -1;
 }
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 5px 0;
-}
