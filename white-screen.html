@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>White Screen Tool</title>
+<title>Black Screen Tool</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>White Screen Tool</h1>
+<div class="tool-container">
 
-<button onclick="goWhite()">Start</button>
+<h1>Black Screen Fullscreen Tool</h1>
+
+<p>Use this fullscreen black screen to reduce light, test your monitor, or save power.</p>
+
+<button onclick="setColor('black')">Start Black Screen</button>
+<button onclick="toggleFullscreen()">Fullscreen</button>
 
 <div id="screen"></div>
 
-<script>
-function goWhite() {
-  document.body.style.background = "white";
-  document.body.style.color = "black";
-}
-</script>
+<h2>How to Use</h2>
+<p>Click the start button, then go fullscreen for a completely dark screen.</p>
+
+<h3>More Tools</h3>
+<ul>
+<li><a href="white-screen.html">White Screen</a></li>
+<li><a href="red-screen.html">Red Screen</a></li>
+<li><a href="index.html">Home</a></li>
+</ul>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
